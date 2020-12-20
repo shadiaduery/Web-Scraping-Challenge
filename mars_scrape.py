@@ -141,4 +141,5 @@ def scrape():
 # mars_info = (mars_news, featured_img, mars_fact_table, hemisphere_image_urls)
 
 # print(mars_info)
-    return mars_dict
+    # return mars_dict
+print(mars_dict)
