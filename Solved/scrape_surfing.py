@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 def init_browser():
     # @NOTE: Replace the path with your actual path to the chromedriver
-    executable_path = {"executable_path": "/usr/local/bin/chromedriver"}
+    executable_path = {"executable_path": "C:/Users/sduer/Desktop/chromedriver"}
     return Browser("chrome", **executable_path, headless=False)
 
 
