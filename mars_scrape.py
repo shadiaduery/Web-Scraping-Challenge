@@ -115,6 +115,7 @@ def scrape():
     mars_dict['valles_img'] = soup7.find('div', class_='downloads').find('a')["href"] 
     
     browser.quit()
-
+    # print(mars_dict)
     return mars_dict
-    print(mars_dict)
+    
+# print(scrape())
